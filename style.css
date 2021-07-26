@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 15vh;
+}
+
+header .logo {
+  position: absolute;
+  width: 700px;
+  height: 132px;
+  left: 216px;
+  top: 45px;
+}
+
+header .logo h1 {
+  margin-left: 20%;
+  position: absolute;
+  top: 30%;
+  font-size: 45px;
+}
+
+header .logo h4 {
+  margin-left: 20%;
+  position: absolute;
+  top: 75%;
+}
+
+header .right {
+  position: absolute;
+  width: 462px;
+  height: 125px;
+  right: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header .right .sub {
+  width: 10em;
+  cursor: pointer;
+}
+
+header .right .login {
+  background: #ee4e1b;
+  border-radius: 70px;
+  height: 7vh;
+  width: 13vh;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+}
+
+header .right .user {
+  width: 4em;
+  cursor: pointer;
+}
+
+section .slide .bg {
+  background: linear-gradient(269.95deg, #ee701b 0.04%, #f7c844 99.95%);
+  filter: blur(5px);
+  height: 43em;
+  width: 95em;
+  position: absolute;
+  top: -2em;
+  left: -7em;
+}
+
+section .slide {
+  width: 85%;
+  position: absolute;
+  left: 8%;
+  top: 30%;
+}
+
+.wannado {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 47em;
+}
+
+.wannado .icon {
+  position: absolute;
+  top: 54em;
+  right: 85em;
+}
+
+.wannado h1 {
+  position: absolute;
+  top: 23em;
+  right: 23em;
+}
+
+
